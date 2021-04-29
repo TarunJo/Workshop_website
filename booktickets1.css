@@ -1,0 +1,119 @@
+
+
+
+body{
+    background: url("buy tickets/tickets.jpeg") center center/cover no-repeat;
+align-items: flex-start;
+}
+
+.contact-form > * {
+width:90%;
+}
+.contact-form .first-container{
+    background: url("buy tickets/redback.jpeg") center center/cover no-repeat;
+display:flex;
+font-size:52px;
+align-items:center;
+justify-content: center;
+box-shadow: 80px 80px 100px 80px rgba(.1,0,0,.1);
+}
+.contact-form .first-container .info-container div{
+margin:24px 0;
+}
+.contact-form .second-container{
+    background: url("buy tickets/luxurybackground.jpeg") center center/cover no-repeat;
+    display:flex;
+    font-size:52px;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 80px 80px 100px 80px rgba(.1,0,0,.1);
+    }
+    .contact-form .second-container .info-container div{
+    margin:24px 0;
+    }
+    .contact-form .third-container{
+        background: url("buy tickets/whiteluxback.jpg") center center/cover no-repeat;
+        display:flex;
+        font-size:52px;
+        align-items:center;
+        justify-content: center;
+        box-shadow: 80px 80px 100px 80px rgba(.1,0,0,.1);
+        }
+        .contact-form .second-container .info-container div{
+        margin:24px 0;
+        }
+.contact-form .first-container .info-container button{
+ width:500px;
+ height:200px;
+
+ background: url("images/vipsof.jpg") center center/cover no-repeat;
+ color:white;
+ font-size:16px;
+ font-weight:600;
+ text-transform: uppercase;
+ border:50px 50px 50px 50px;
+ position:relative;
+ left:calc(10% - 100px);
+justify-content:space-between;
+box-shadow: 80px 80px 100px 80px rgba(.1,0,0,.1);
+border-radius:15px 15px 15px 15px ;
+}
+.first-container .info-container button:hover{
+    transform:scale(1.05);
+   }
+.contact-form .second-container .info-container button{
+    width:500px;
+    height:200px;
+    background: url("buy tickets/sofazyadablack.jpeg") center center/cover no-repeat;
+    color:white; 
+    font-size:16px;
+    font-weight:600;
+    text-transform: uppercase;
+    border:50px 50px 50px 50px;
+    position:relative;
+    left:calc(10% - 100px);
+   justify-content:space-between;
+   box-shadow: 80px 80px 100px 80px rgba(.1,0,0,.1);
+   border-radius:15px 15px 15px 15px ;
+   }
+   .second-container .info-container button:hover{
+    transform:scale(1.05);
+   }
+   .contact-form .third-container .info-container button{
+    width:500px;
+    height:200px;
+    background: url("buy tickets/ylwsofa.jpeg") center center/cover no-repeat;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    text-transform: uppercase;
+    border:50px 50px 50px 50px;
+    position:relative;
+    left:calc(10% - 100px);
+   justify-content:space-between;
+   box-shadow: 80px 80px 100px 80px rgba(0, 0, 0, 0);
+   border-radius:15px 15px 15px 15px ;
+   }
+   .third-container .info-container button:hover{
+    transform:scale(1.05);
+   }
+   .heading-highlight{
+    position:relative;
+    margin:0.1em;
+  }
+  .heading-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.5em;
+    top:0.1em;
+    border-width:0.5em;
+    border-style:solid;
+    border-color:rgb(85, 84, 88);
+    position:absolute;
+    width:100%;
+    border-left-color:transparent;
+    border-right-color:transparent;
+  }
+  
+
+

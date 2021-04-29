@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #232531, #394758);
+    padding: 5 5;
+    margin: 0;
+}
+
+.Workshop{
+    height: 0px;
+    width: 70px;
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;  
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2%;
+}
+
+.allpages{
+    text-align: right; 
+    margin-right: 0;
+}
+
+a.Taskbar{ 
+    text-decoration: none;
+    color: white;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+a.Taskbar:hover,a.Taskbar:active { 
+    color: #ff5733;  
+    transition: 0.8s;
+    border-bottom: 3px solid #ff5733;
+} 
+#target1{
+    color: #ff5733;
+    border-bottom: 3px solid #ff5733; 
+}
+
+.btn1 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 0;
+    line-height: 0;
+    color: #FF5733;
+    font-family: Brush Script MT; 
+    width: 150px;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 19px;
+    background-color: #323547;
+    border: solid #606469 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 3.3%;
+}
+ .btn1:hover{
+     color: white;
+     transition: 0.8s;
+ }
+
+h1{
+    text-align: center;
+    margin-top:4%;
+}
+
+.tle{
+    text-decoration: none;
+    color: white;
+    top:20%;
+    font-size:400%;
+    text-decoration:underline;
+    text-decoration-color:#ff5733;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    margin: 13px;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p{
+    padding: 10px;
+}
+
+.team .team_member1, .team .team_member2{
+    background: rgb(177, 117, 5);
+    border-radius: 5%;
+    margin:10px;
+    margin-bottom: 50px;
+    width: 400px;
+    padding: 40px;
+    line-height: 20px;
+    color: #1e2244;
+    position: relative;
+}
+
+.team .team_member2{
+    background: #10911f;
+}
+.team .team_member1 h3, .team .team_member2 h3{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member1 p.role, .team .team_member2 p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team .team_member1 .team_img, .team .team_member2 .team_img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(177, 117, 5);
+}
+
+.team .team_member2 .team_img{
+    background: #10911f;
+}
+
+.team .team_member1 .team_img img, .team .team_member2 .team_img img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 50%;
+}
+.team_member1:hover{
+    box-shadow: 0 0 20px green;
+    transform: scale(1.02);
+}
+
+.team_member2:hover{
+    box-shadow: 0 0 20px orange;
+    transform: scale(1.02);
+}
+
+.footer{
+    background-image: linear-gradient(to bottom left, #232531, #32527b);
+    color: white;
+    height: 350px;
+}
+
+.footer .footer-bottom{
+    background-image: linear-gradient(to bottom right, #565857, #2c2a2a);
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+}
+
+.footer .footer-content{
+    height: 310px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    flex: 1;
+    margin-left: 32px; 
+}
+
+h5{
+    font-size: 40px;
+    padding-left: 5px;
+    padding-bottom: 25px;
+}
+
+.quicklnk{
+    text-decoration: none;
+    color:white;
+}
+
+.ac:hover{
+    transform: scale(1.01);
+}
